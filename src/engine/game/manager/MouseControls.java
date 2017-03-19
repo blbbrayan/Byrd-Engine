@@ -9,9 +9,10 @@ import engine.gui.ResizeListener;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class MouseControls implements MouseListener{
+public class MouseControls implements MouseListener, Serializable {
 	
 	GameStateManager gsm;
 

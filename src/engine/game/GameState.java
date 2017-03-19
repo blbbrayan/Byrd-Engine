@@ -1,6 +1,7 @@
 package engine.game;
 
 import java.awt.Graphics2D;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -10,7 +11,7 @@ import engine.game.manager.Controller;
 import engine.game.manager.GameClickEvent;
 import engine.game.manager.GameStateManager;
 
-public abstract class GameState implements Controller{
+public abstract class GameState implements Controller, Serializable{
 
 	private String name;
 	private boolean focus;

@@ -6,8 +6,9 @@ import engine.gui.BFrame;
 import engine.gui.ResizeListener;
 
 import java.awt.*;
+import java.io.Serializable;
 
-public class HoverControls implements Runnable {
+public class HoverControls implements Runnable, Serializable {
     private boolean on;
 
     public void start(){

@@ -1,15 +1,15 @@
 package engine.action;
 
+import engine.gui.BFrame;
+
+import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
+import java.io.Serializable;
 
-import javax.swing.ImageIcon;
-
-import engine.gui.BFrame;
-
-public class Resizer {
+public class Resizer  implements Serializable {
 	
 	public static int resize(int oldInt, int newInt, int obj){
 		if(oldInt != 0 && newInt != 0)

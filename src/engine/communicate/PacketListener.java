@@ -1,6 +1,8 @@
 package engine.communicate;
 
-public abstract class PacketListener<T> {
+import java.io.Serializable;
+
+public abstract class PacketListener<T>  implements Serializable {
     private T packetType;
 
     public PacketListener(T packetType) {

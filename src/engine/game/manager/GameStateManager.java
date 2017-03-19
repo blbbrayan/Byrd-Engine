@@ -8,9 +8,10 @@ import engine.gui.ResizeListener;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.awt.event.MouseEvent;
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class GameStateManager {
+public class GameStateManager implements Serializable {
 
     private ArrayList<GameState> states;
 

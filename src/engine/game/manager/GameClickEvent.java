@@ -5,9 +5,10 @@ import engine.game.GameObject;
 
 import java.awt.*;
 import java.awt.event.MouseEvent;
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class GameClickEvent {
+public class GameClickEvent implements Serializable{
 
     private MouseEvent mouseEvent;
     private ArrayList<GameObject> clickedObjects;

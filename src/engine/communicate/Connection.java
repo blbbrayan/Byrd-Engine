@@ -3,10 +3,11 @@ package engine.communicate;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.Serializable;
 import java.net.Socket;
 import java.util.ArrayList;
 
-public class Connection {
+public class Connection  implements Serializable {
 
     public static ArrayList<PacketListener> packetListeners = new ArrayList<>();
 

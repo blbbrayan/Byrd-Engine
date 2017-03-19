@@ -3,8 +3,8 @@ package engine.action;
 import java.io.*;
 import java.util.ArrayList;
 
-public class TextReader {
-	
+public class TextReader  implements Serializable{
+
 	public static ArrayList<String> getFileTextLines(String location){
 		try {
 			FileReader fileReader = new FileReader(location);
@@ -23,7 +23,7 @@ public class TextReader {
 		} catch (IOException e) {e.printStackTrace();}
 		return null;
 	}
-	
+
 	public static String getFileText(String location){
 		try {
 			FileReader fileReader = new FileReader(location);

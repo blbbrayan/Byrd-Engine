@@ -4,8 +4,9 @@ import engine.game.GameControls;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.io.Serializable;
 
-public class InputControls extends KeyAdapter{
+public class InputControls extends KeyAdapter implements Serializable {
 		
 	GameStateManager gsm;
 	

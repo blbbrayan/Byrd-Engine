@@ -2,8 +2,9 @@ package engine.sound;
 
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.FloatControl;
+import java.io.Serializable;
 
-public class BClip {
+public class BClip implements Serializable {
 
     private Clip sound;
 

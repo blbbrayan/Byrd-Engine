@@ -2,7 +2,9 @@ package engine.action;
 
 import engine.gui.BFrame;
 
-public class Grid {
+import java.io.Serializable;
+
+public class Grid  implements Serializable {
 
     public static int w60(int percent, boolean stretch){
         if(!stretch)

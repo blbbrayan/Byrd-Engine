@@ -8,9 +8,10 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class AssetManager {
+public class AssetManager  implements Serializable {
 
     public static ArrayList<BufferedImage> sprites = new ArrayList<>();
     public static ArrayList<String> spriteNames = new ArrayList<>();

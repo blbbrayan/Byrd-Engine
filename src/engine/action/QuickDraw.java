@@ -2,8 +2,9 @@ package engine.action;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.io.Serializable;
 
-public class QuickDraw {
+public class QuickDraw  implements Serializable {
 	
 	public static void rect(Rectangle r, boolean fill, Graphics2D g){
 		if(!fill)

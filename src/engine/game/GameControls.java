@@ -1,8 +1,9 @@
 package engine.game;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class GameControls {
+public class GameControls implements Serializable{
 
     public static ArrayList<GameControls> controls = new ArrayList<>();
 

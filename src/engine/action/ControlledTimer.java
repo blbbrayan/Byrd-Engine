@@ -1,6 +1,8 @@
 package engine.action;
 
-public abstract class ControlledTimer implements Runnable{
+import java.io.Serializable;
+
+public abstract class ControlledTimer implements Runnable, Serializable {
 	
 	private boolean running;
 	

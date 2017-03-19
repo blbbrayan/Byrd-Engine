@@ -1,12 +1,8 @@
 package engine.action;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 
-public class Saver {
+public class Saver  implements Serializable {
 	
 	public static void save(String saveLocation, String name, Object obj) {
 		try {

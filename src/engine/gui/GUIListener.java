@@ -1,8 +1,8 @@
 package engine.gui;
 
-import java.awt.Component;
-
 import engine.game.GameObject;
+
+import java.awt.*;
 
 public interface GUIListener {
 
